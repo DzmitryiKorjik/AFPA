@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title" id="up">
+            <h1>Nous lançons une grande</h1>
+        </div>
+        <div class="title__sub-title">
+            <h3>merci de nous répondre</h3>
+        </div>
+        <form class="input" action="/submit-form" method="post">
+            <div class="input__nom">
+                <input 
+                    type="text" 
+                    id="nom"
+                    name="nom" 
+                    placeholder="Votre nom"
+                    pattern="^[a-zA-Z]+$" 
+                    title="Entrez uniquement des lettres pour votre nom"
+                    required>
+                <label class="input__nom-label" for="nom">Votre nom</label>
+            </div>
+            <div class="input__prenom">
+                <input 
+                    type="text" 
+                    id="prenom"
+                    name="prenom" 
+                    placeholder="Votre prénom" 
+                    pattern="^[a-zA-Z]+$" 
+                    title="Entrez uniquement des lettres pour votre prénom"
+                    required>
+                <label class="input__prenom-label" for="prenom">Votre prénom</label>
+            </div>
+            <div class="input__date">
+                <input 
+                    type="date"  
+                    id="date" 
+                    name="date"
+                    placeholder="Votre date de naissance" 
+                    required>
+                <label class="input__date-label" for="date">Votre date de naissance</label>
+            </div>
+            <div class="input__adresse">
+                <input 
+                    type="text" 
+                    id="adresse" 
+                    name="adresse"
+                    placeholder="Votre adresse" 
+                    required>
+                <label class="input__adresse-label" for="adresse">Votre adresse</label>
+            </div>
+            <div class="input__ville">
+                <input 
+                    type="text"
+                    id="ville"
+                    name="ville"
+                    placeholder="Votre ville"
+                    required>
+                <label class="input__ville-label" for="ville">Votre ville</label>
+            </div>
+            <div class="input__postal">
+                <input 
+                    type="number" 
+                    id="postal"
+                    name="postal"
+                    placeholder="Votre code postal" 
+                    pattern="[0-9]{5}"
+                    title="Entrez un code postal valide"
+                    required>
+                <label class="input__postal-label" for="postal">Votre code postal</label>
+            </div>
+            <div class="input__email">
+                <input 
+                    type="email" 
+                    id="email"
+                    name="email" 
+                    placeholder="Votre adresse email" 
+                    required>
+                <label class="input__email-label" for="email">Votre adresse email</label>
+            </div>
+            <div class="input__human">
+                <input
+                    class="input__human-homme" 
+                    type="radio"
+                    id="homme"
+                    name="human"
+                    placeholder="Vous êtes un homme"
+                    required>
+                <label class="input__human-label" for="homme">Vous êtes un homme</label>
+                <input
+                    class="input__human-femme" 
+                    type="radio"
+                    id="femme"
+                    name="human"
+                    placeholder="Vous êtes une femme"
+                    required>
+                <label class="input__human-label" for="femme">Vous êtes une femme</label>
+            </div>
+            <div class="input__profession">
+                <select class="input__profession-menu" title="profession" name="profession" id="profession">
+                    <option value="Developpeur">Developpeur</option>
+                    <option value="Analyste">Analyste</option>
+                    <option value="Chef de projet">Chef de projet</option>
+                    <option value="Autre">Autre</option>
+                </select>
+                <label class="input__profession-label" for="profession">Votre profession</label>
+            </div>
+
+            <div class="input__autre">
+                <input
+                    type="text"
+                    id="autre"
+                    name="autre"
+                    placeholder="Autre profession">
+                <label class="input__autre-label" for="autre">Si vous avez répondu autre, précisez</label>
+            </div>
+            <div class="input__solde">
+                <select class="input__solde-menu" title="solde" name="solde" id="solde">
+                    <option value="salaire">&lt 1000 €</option>
+                    <option value="salaire">&gt 1000 € et &lt 1000 €</option>
+                    <option value="salaire">&gt 1500 € et &lt 2000 €</option>
+                    <option value="salaire">&gt 2000 €</option>
+                </select>
+                <label class="input__solde-label" for="solde">Salaire souhaité</label>
+            </div>
+
+            <div class="input__descr">
+                <input 
+                    type="number"
+                    id="annee"
+                    name="annee"
+                    placeholder="Année suivi le stage"
+                    required>
+                <label class="input__descr-label" for="annee">En quelle année avez-vous suivi le stage AFPA</label>    
+            </div>
+            <textarea class="input__commentaires" name="commentaires" id="commentaires" wrap="hard" placeholder="Vos commentaires"></textarea>
+            <div class="text">
+                <h2>Merci d'avoir répondu au questionnaire</h2>
+            </div>
+            <button class="btn__valid" id="btn_valid" type="submit">Validez</button>
+            <button class="btn__annule" id="btn_annule" type="reset">Annulez</button>
+            <div class="up__btn" id="up-btn">
+                <a href="#up" class="up__btn-link">
+                    <img src="img/up-arrow.png" alt="Up arrow" loading="lazy">
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

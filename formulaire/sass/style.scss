@@ -1,0 +1,211 @@
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    &__sub-title {
+        text-align: center;
+        font-size: 1.5em;
+        color: #888;
+        margin-top: 10px;
+    }
+}
+
+.input {
+    &__nom {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;      
+    }
+    &__nom-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__prenom {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__prenom-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__date {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__date-label {
+        font-weight: bold;
+        padding-left: 70px;
+    }
+    &__adresse {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__adresse-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__ville {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__ville-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__postal {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__postal-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__email {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__email-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__human {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__human-homme {
+        margin: 0 2% 0 0;
+    }
+    &__human-femme {
+        margin: 0 2% 0 5%;
+    }
+    &__human-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__profession {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__profession-label {
+        font-weight: bold;
+        padding-left: 80px;
+    }
+    &__autre {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__autre-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__solde {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__solde-label {
+        font-weight: bold;
+        padding-left: 39px;
+    }
+    &__descr {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+    &__descr-label {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__commentaires {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px; 
+    }
+}
+
+.btn__valid {
+    width: 10%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:active {
+        background-color: #888;
+        transform: scale(0.95);
+        transition: transform 0.2s;
+    }
+}
+.btn__annule {
+    width: 10%;
+    padding: 10px 20px;
+    background-color: #f70606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:active {
+        background-color:#888;
+        transform: scale(0.95);
+        transition: transform 0.2s;
+    }
+}
+.up__btn {
+    display: flex;
+    justify-content: flex-end;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+

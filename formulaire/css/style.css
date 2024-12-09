@@ -1,0 +1,223 @@
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.title__sub-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #888;
+  margin-top: 10px;
+}
+
+.input__nom {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__nom-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__prenom {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__prenom-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__date {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__date-label {
+  font-weight: bold;
+  padding-left: 70px;
+}
+.input__adresse {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__adresse-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__ville {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__ville-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__postal {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__postal-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__email-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__human {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__human-homme {
+  margin: 0 2% 0 0;
+}
+.input__human-femme {
+  margin: 0 2% 0 5%;
+}
+.input__human-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__profession {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__profession-label {
+  font-weight: bold;
+  padding-left: 80px;
+}
+.input__autre {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__autre-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__solde {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__solde-label {
+  font-weight: bold;
+  padding-left: 39px;
+}
+.input__descr {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input__descr-label {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.input__commentaires {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn__valid {
+  width: 10%;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn__valid:active {
+  background-color: #888;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.btn__annule {
+  width: 10%;
+  padding: 10px 20px;
+  background-color: #f70606;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn__annule:active {
+  background-color: #888;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.up__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.up__btn img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
