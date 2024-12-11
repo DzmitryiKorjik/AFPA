@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    background: repeating-linear-gradient(
+        120deg,
+        black 0%,
+        black 20%,
+        red 20%,
+        red 40%
+    );
+}
+@font-face {
+    font-family: 'HardRock';
+    src: url('../fonts/HARD_ROCK.ttf');
+}
+@font-face {
+    font-family: 'RocknRoll';
+    src: url('../fonts/rocknroll_typo_crazy.ttf');
+}
+@font-face {
+    font-family: 'TheDark';
+    src: url('../fonts/TheDark.ttf');
+}
+.navbar-nav > li > a {
+    font-family: 'TheDark';
+}
+
+#carouselExampleIndicators {
+    margin-top: 150px !important;
+}
+.title__img {
+    width: 7%;
+}
+h2 {
+    font-family: 'TheDark';
+    color: white !important;
+    margin: 25px 15px;
+}
+h5 {
+    font-family: 'rocknroll_typo_crazy';
+    color: white !important;
+    text-align: center;
+}
+.card-body {
+    font-family: 'rocknroll_typo_crazy';
+}
+thead tr th {
+    color: red !important;
+}
+.table-group-divider {
+    color: red !important;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: red !important;
+    font-family: 'TheDark';
+}
+.btns button {
+    font-family: 'TheDark';
+}
+.items__card a {
+    font-family: 'TheDark';
+}
+
+.membres > .items > .item {
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    #carouselExampleIndicators {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    #carouselExampleIndicators .carousel-inner img {
+        height: 200px; 
+        object-fit: cover;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ACDC</title>
+</head>
+<body>
+    <div class="container" id="ACCUEIL">
+      <nav class="navbar d-flex justify-content-between fixed-top bg-dark navbar-expand-lg bg-body-tertiary col-8" data-bs-theme="dark">
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="img/icon-header.png" alt="icon" class="m-3" style="height: 40px;">
+            </a>
+            
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>   
+  
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link-danger fs-4 fs-md-3 fs-lg-2 fs-xl-1" href="#ACCUEIL">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger fs-4 fs-md-3 fs-lg-2 fs-xl-1" href="#MEMBRES">MEMBRES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger fs-4 fs-md-3 fs-lg-2 fs-xl-1" href="#DISCOGRAPHIE">DISCOGRAPHIE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger fs-4 fs-md-3 fs-lg-2 fs-xl-1" href="#AGENDA">AGENDA DES CONCERTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger fs-4 fs-md-3 fs-lg-2 fs-xl-1" href="#CONTACT">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+          </div>
+      </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/ac-dc-1.png" class="d-block w-100" alt="ACDC">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ac-dc-2.png" class="d-block w-100" alt="ACDC">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ac-dc-3.png" class="d-block w-100" alt="ACDC">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="container-fluid">   
+        <div class="membres mb-5" id="MEMBRES">
+            <div class="title d-flex justify-content-center align-items-center">
+                <img class="title__img" src="img/icon-header.png" alt="ACDC">
+                <h2>LES MEMBRES DU GROUPE</h2>
+            </div>
+            <div class="items d-flex flex-row justify-content-between gap-3 flex-wrap" >
+                <div class="item mb-4">
+                    <img src="img/brian-johnson.png" class="d-block border border-white border-5 w-100 h-100 mb-2" alt="brian johnson">
+                    <h5>Brian Johnson (Chant)</h5>
+                </div>
+                <div class="item mb-4">
+                    <img src="img/angus-young.png" class="d-block border border-white border-5 w-100 h-100 mb-2" alt="angus young">
+                    <h5>Angus Young (Guitare Solo)</h5>
+                </div>
+                <div class="item mb-4">
+                    <img src="img/steve-young.png" class="d-block border border-white border-5 w-100 h-100 mb-2" alt="steve young">
+                    <h5>Steve Young (Guitare)</h5>
+                </div>
+                <div class="item mb-4">
+                    <img src="img/cliff-williams.png" class="d-block border border-white border-5 w-100 h-100 mb-2" alt="cliff williams">
+                    <h5>Cliff Williams (Basse)</h5>
+                </div>
+                <div class="item mb-4">
+                    <img src="img/chris-slade.png" class="d-block border border-white border-5 w-100 h-100 mb-2" alt="chris slade">
+                    <h5>Chris Slade (Batterie)</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="discographie" id="DISCOGRAPHIE">
+            <div class="title d-flex justify-content-center align-items-center">
+                <img class="title__img" src="img/icon-header.png" alt="ACDC">
+                <h2>La Discographie</h2>
+            </div>
+            <div class="item__card d-flex flex-column">
+                <div class="items__card d-flex flex-row  flex-wrap justify-content-center gap-5 mb-5">
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/High-voltage-1975.jpg" class="card-img-top" alt="High-voltage-1975">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1975 : High Voltage</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Highway-to-hell-1979.jpg" class="card-img-top" alt="Highway-to-hell-1979">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1979 : Higway to Hell</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Back-in-black-1980.jpg" class="card-img-top" alt="Back-in-black-1980">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1980 : Back in Black</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="items__card d-flex flex-row flex-wrap justify-content-center gap-5 mb-5">
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Who-made-who-1986.jpg" class="card-img-top" alt="Who-made-who-1986">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1986 : Who made Who</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Blow-up-your-video-1988.jpg" class="card-img-top" alt="Blow-up-your-video-1988">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1988 : Blow up your Video</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Razor-edge-1990.jpg" class="card-img-top" alt="Razor-edge-1990">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1990 : Razor's Edge</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="items__card d-flex flex-row flex-wrap justify-content-center gap-5 mb-5">
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Ballbreaker-1995.jpg" class="card-img-top" alt="Ballbreaker-1995">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">1995 : BallBreaker</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Stiff-upper-lip-2000.jpg" class="card-img-top" alt="Stiff-upper-lip-2000">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">2000 : Stiff Uper Lip</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                    <div class="card border-5 border-white" style="width: 18rem;">
+                        <img src="img/Discographie/Black-ice-2008.jpg" class="card-img-top" alt="Black-ice-2008">
+                        <div class="card-body">
+                          <h5 class="card-title text-danger">2008 : Black Ice</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-danger">Lire plus ...</a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="concerts" id="AGENDA">
+            <div class="title d-flex justify-content-center align-items-center">
+                <img class="title__img" src="img/icon-header.png" alt="ACDC">
+                <h2>Les Dates des Concerts</h2>
+            </div>
+        </div>
+        <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Heure</th>
+                <th scope="col">Salle</th>
+                <th scope="col">Ville</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">08/06/2000</th>
+                <td>21:00</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+              </tr>
+              <tr>
+                <th scope="row">12/05/2002</th>
+                <td>21:00</td>
+                <td>Esplanade</td>
+                <td>Singapour</td>
+              </tr>
+              <tr>
+                <th scope="row">18/09/2009</th>
+                <td>20:30</td>
+                <td>Opera</td>
+                <td>Sydney</td>
+              </tr>
+              <tr>
+                <th scope="row">12/09/2021</th>
+                <td>20:30</td>
+                <td>Massey Hall</td>
+                <td>Toronto</td>
+              </tr>
+              <tr>
+                <th scope="row">12/09/2022</th>
+                <td>20:30</td>
+                <td>Madison Square Garden</td>
+                <td>New York</td>
+              </tr>
+              <tr>
+                <th scope="row">08/06/2023</th>
+                <td>21:30</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="container">
+      <div class="contact" id="CONTACT">
+        <div class="title d-flex justify-content-center align-items-center">
+          <img class="title__img" src="img/icon-header.png" alt="ACDC">
+          <h2>Contact</h2>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nom" aria-label="Nom">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Prenom" aria-label="Prenom">
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <input type="email" class="form-control" id="inputEmail4" placeholder="email" aria-label="email">
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre massage" aria-label="textarea"></textarea>
+        </div>
+      </div>
+      <div class="btns d-flex justify-content-center">
+        <button type="button" class="btn btn-danger m-2">Envoyer</button>
+        <button type="button" class="btn btn-danger m-2">Annuler</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
