@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="font/Inspiration-Regular.ttf">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Les Artistes Peintres</title>
+</head>
+<body>
+    <div class="container mb-3">
+        <header class="mb-3 mt-3">
+            <div class="header__title d-flex align-items-center">
+                <i class="me-3"><img src="img/logo-art-peinture.png" alt="log"></i>
+                <h1 class="text-light">Les Artistes Peintres</h1>
+            </div>
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class="p-4">
+                    <ul class="nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-light picasso" data-gallery="picasso" href="#">Picasso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light caillebotle" data-gallery="caillebotle" href="#">Caillebotle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light vermeer" data-gallery="vermeer" href="#">Vermeer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light kandinsky" data-gallery="kandinsky" href="#">Kandinsky</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light monet" data-gallery="monet" href="#">Monet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light van" data-gallery="van" href="#">Van Gogh</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark" id="burger">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+            </nav>
+            <nav id="menu" class="navbar">
+                <div class="container d-flex justify-content-center">
+                    <ul class="nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 picasso" data-gallery="picasso" href="#">Picasso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 caillebotle" data-gallery="caillebotle" href="#">Caillebotle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 vermeer" data-gallery="vermeer" href="#">Vermeer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 kandinsky" data-gallery="kandinsky" href="#">Kandinsky</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 monet" data-gallery="monet" href="#">Monet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-3 van" data-gallery="van" href="#">Van Gogh</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+        <div class="main d-flex">
+            <aside class="col-4 bg-success">
+                <img class="m-auto p-3 w-100" src="img/img_baniere.png" alt="baniere">
+                <nav class="nav flex-column justify-content-center align-content-center">
+                    <a class="nav-link text-light" href="#">Nos Productions</a>
+                    <a class="nav-link text-light" href="#">Qui Sommes Nous</a>
+                    <a class="nav-link text-light" href="#">Notre Philosophie</a>
+                    <a class="nav-link text-light" href="#">Nous Contacter</a>
+                  </nav>
+            </aside>
+            <main class="col-8">
+                <div class="title bg-success">
+                    <h2 class="text-light">Ce que nous faisons</h2>
+                    <p class="text-light pb-4 mb-0">Nous sommes un collectif d'artistes français et étrangers, passionnés de la peinture et de l'art contemporain. Nous avons décidé de travailler ensemble pour réaliser des oeuvres originales et inspirer les générations futures.</p>
+                </div>
+                <div class="wrapper p-5">
+                    <h2 class="mb-4 text-secondary">Galerie Caillebotte</h2>
+                    <div class="items d-flex flex-row flex-wrap gap-3"></div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <footer class="d-flex justify-content-center align-content-center mb-3">
+        <a class="text-decoration-none text-light" href="#">&copy; Copyright Art Fabric</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

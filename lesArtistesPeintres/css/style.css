@@ -1,0 +1,82 @@
+body {
+    background-color: #3E0005;
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/Inspiration-Regular.ttf') format(truetype);
+}
+
+h1 {
+    font-family: 'Inspiration' !important;
+    font-size: 50px !important;
+}
+.collapse {
+    background-color: #270003;
+}
+burger {
+    background-color: #270003;
+}
+.navbar {
+    background-color: #270003;
+    li {
+        border-right: 2px solid #3E0005;
+        &:hover {
+            background-color: #3E0005;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }  
+}
+
+img {
+    
+}
+.wrapper {
+    background-color: var(--bs-warning-bg-subtle);
+}
+
+aside {
+    a {
+        border-bottom: 2px solid white !important;
+        &:hover {
+            background-color: #3E0005;
+            border-radius: 10px !important;
+        }
+    }
+}
+
+.card {
+    min-width: 100px !important;
+    max-width: 245px !important;
+}
+
+#burger {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    aside nav a{
+        font-size: 10px !important;
+    }
+    main h2 {
+        font-size: 18px !important;
+    }
+    main p {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #menu {
+        display: none;
+    }
+    #burger {
+        display: block;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
